@@ -29,4 +29,5 @@ if __name__ == '__main__':
         Expense('car', 3),
         Expense('dog', 1)
     )
-    print_expenses(sum_expenses(test_expenses, min_amount=2))
+    sum_results = sum_expenses(test_expenses, min_amount=2)
+    print_expenses(sum_results)
