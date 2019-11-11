@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+__all__ = ['Expense', 'sum_expenses', 'print_expenses']
+
 from collections import namedtuple, defaultdict
 from operator import itemgetter
 
