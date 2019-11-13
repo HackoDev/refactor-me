@@ -29,7 +29,7 @@ if __name__ == '__main__':
         Expense('food', 4),
         Expense('food', 3),
         Expense('car', 3),
-        Expense('dog', 1)
+        Expense('dog', 1),
     )
     sum_results = sum_expenses(test_expenses, min_amount=2)
     print_expenses(sum_results)
